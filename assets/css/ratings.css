@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure the page takes up the full viewport height */
+  margin: 0;
+  background-color: #FFF1E1;
+}
+
+/* Container for both sections */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap as needed */
+  overflow: auto;
+}
+
+/* Section styles */
+.section {
+  background: linear-gradient(#1b2f55, #284377, #4a5f90, #7e93ba, #9fb8d2);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1; /* Distribute available width equally */
+  max-width: calc(50% - 20px); /* 50% width with gap */
+  min-height: 150px; /* Set a minimum height for each section */
+  overflow: hidden; /* Hide any overflowed content */
+}
+.section1 {
+  background: linear-gradient(#fccfa6, #fdb3a5, #fe97a4, #fe7ba3, #ff5fa2);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1; /* Distribute available width equally */
+  max-width: calc(50% - 20px); /* 50% width with gap */
+  max-height: 365px; /* Set a minimum height for each section */
+  overflow: hidden; /* Hide any overflowed content */
+}
+.section2 {
+  background: linear-gradient(#FF10F0, #ff10ef88, #ff10ef5b, #ff10ef5b);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1; /* Distribute available width equally */
+  max-width: calc(50% - 20px); /* 50% width with gap */
+  max-height: 365px; /* Set a minimum height for each section */
+  overflow: hidden; /* Hide any overflowed content */
+}
+.section3 {
+  background: linear-gradient(#ffa6fc, #ff94e0, #ff76d8, #ff59c7, #000000);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1; /* Distribute available width equally */
+  max-width: calc(50% - 20px); /* 50% width with gap */
+  max-height: 365px; /* Set a minimum height for each section */
+  overflow: hidden; /* Hide any overflowed content */
+}
+.section-title {
+  text-align: center;
+}
+.rating-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-item {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.song-title {
+  flex: 1;
+}
+
+.rating {
+  flex: 0;
+  padding-left: 20px;
+  font-weight: bold;
+}

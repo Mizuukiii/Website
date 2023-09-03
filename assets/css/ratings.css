@@ -84,9 +84,3 @@ body {
   padding-left: 20px;
   font-weight: bold;
 }
-#back-button {
-  position: fixed;
-  top: 10px; /* Adjust the value to position the button vertically */
-  left: 10px; /* Adjust the value to position the button horizontally */
-  z-index: 999; /* Ensure it's above other elements on the page */
-}

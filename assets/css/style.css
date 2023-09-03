@@ -4,6 +4,9 @@ body {
   h3 {
     font-size: 30px
   }
+  .needs {
+    font-size: 50px;
+  }
   p {
     color: rgb(195, 122, 255);
   }
